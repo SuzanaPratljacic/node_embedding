@@ -10,7 +10,7 @@ learns embedding on a training graph and predicts embedding (using projection on
 A graph in the form of an edge list. It is assumed that the graph is undirected and unweighted. 
 
 ## Output 
-The output file has n lines (where n is the number of nodes in the graph). Each line contains the node_id and d-dimensional embedding vector.  
+The output file has n+1 lines (where n is the number of nodes in the graph). The first line contains two numbers: the number of nodes and the dimension of embedding. The remaining lines of the output contain the node_id and d-dimensional embedding vector.  
 
 ## Usage
 You can check the basic usage:
